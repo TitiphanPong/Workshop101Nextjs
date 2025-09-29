@@ -5,7 +5,7 @@ export default function HomePage() {
 		<main style={styles.container}>
 			<h1>Welcome to Next.js Workshop</h1>
 			<div style={styles.buttonGroup}>
-				<Link href="/example" style={styles.button}>
+				<Link href="/workshop1" style={styles.button}>
 					CoreConcept (Section 1)
 				</Link>
 				<Link href="/login" style={styles.button}>

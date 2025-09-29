@@ -10,11 +10,6 @@ export default function StateSection() {
         <div>
             <p>Count: {count}</p>
             <button onClick={() => setCount(count + 1)}>+1</button>
-            <button onClick={() => setCount(0)}>Reset</button>
-            <button onClick={() => setCount(count - 1)}>-1</button>
-            <button onClick={() => setCount(count * 2)}>x2</button>
-            <button onClick={() => count < 5 && setCount(count + 1)}>+1</button>
-            <button onClick={() => count > -5 && setCount(count - 1)}>-1</button>
         </div>
     );
 }
